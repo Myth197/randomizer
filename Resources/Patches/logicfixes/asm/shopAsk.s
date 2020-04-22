@@ -278,11 +278,11 @@ ldr	r0,fastspinCredits
 bx	lr
 
 longspin:
-ldr	r0,fastsplitCredits
+ldr	r0,longspinCreditsfastsplitCredits
 bx	lr
 
 fastsplit:
-ldr	r0,longspinCredits
+ldr	r0,fastsplitCredits
 bx	lr
 
 dungeon:
